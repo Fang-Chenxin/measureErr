@@ -2,9 +2,6 @@
 
 编写程序满足《电子测量》第2-21题要求，分别使用matlab和QT实现，提供图形化界面。
 
-
-下载链接见底部。
-
 ![题目](README_picture/question.jpg)
 
 例2-2-6如下
@@ -198,15 +195,11 @@ private:
 
 相似地设计如下界面，除在窗体对应框中显示外也在右下角文本框中输出与matlab命令行中类似的内容。matlab中由于文字输出不够便利未添加此功能。
 
-![QTGUI](C:\Users\User\OneDrive\学习\电子测量\误差\测量误差数据处理\README_picture\QTGUI.jpg)
-
-## 
-
-# 
+![QTGUI](README_picture/QTGUI.jpg)
 
 # 代码
 
-原文件下载链接：https://github.com/Fang-Chenxin/measureErr/edit/main
+原文件下载链接：https://github.com/Fang-Chenxin/measureErr
 
 matlab版本R2021a，cmdline.m为原始使用命令窗口输出版本，app_source.mlapp是图形化界面源文件，app1_exported.m是导出的图形界面程序。
 
