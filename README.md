@@ -2,9 +2,12 @@
 
 编写程序满足《电子测量》第2-21题要求，分别使用matlab和QT实现，提供图形化界面。
 
+
 下载链接见底部。
+
 ![题目](README_picture/question.jpg)
 例2-2-6如下
+
 ![例题](README_picture/example1.jpg)
 ![例题](README_picture/example2.jpg)
 
@@ -202,7 +205,7 @@ private:
 
 # 代码
 
-原文件链接：
+原文件下载链接：https://github.com/Fang-Chenxin/measureErr/edit/main
 
 matlab版本R2021a，cmdline.m为原始使用命令窗口输出版本，app_source.mlapp是图形化界面源文件，app1_exported.m是导出的图形界面程序。
 
