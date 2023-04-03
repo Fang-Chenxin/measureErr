@@ -6,6 +6,7 @@
 下载链接见底部。
 
 ![题目](README_picture/question.jpg)
+
 例2-2-6如下
 
 ![例题](README_picture/example1.jpg)
@@ -99,7 +100,7 @@ end
 
 根据题目需要，设计如下GUI界面
 
-![matlabGUI](C:\Users\User\OneDrive\学习\电子测量\误差\测量误差数据处理\README_picture\matlabGUI.jpg)
+![matlabGUI](README_picture/matlabGUI.jpg)
 
 ## GUI版代码
 
