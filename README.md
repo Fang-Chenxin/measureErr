@@ -2,9 +2,10 @@
 
 编写程序满足《电子测量》第2-21题要求，分别使用matlab和QT实现，提供图形化界面。
 
-下载链接见底部。
 ![题目](README_picture/question.jpg)
+
 例2-2-6如下
+
 ![例题](README_picture/example1.jpg)
 ![例题](README_picture/example2.jpg)
 
@@ -96,17 +97,27 @@ end
 
 根据题目需要，设计如下GUI界面
 
-![matlabGUI](C:\Users\User\OneDrive\学习\电子测量\误差\测量误差数据处理\README_picture\matlabGUI.jpg)
+![matlabGUI](README_picture/matlabGUI.jpg)
 
 ## GUI版代码
 
 调整代码输入输出以适应图形化界面，导出代码较长，置于本文末尾。
+
+由于读入数字函数的限制，必须使用换行来隔开两个数字。
 
 # QT
 
 相比于matlab，在QT中没有那么丰富可直接使用的函数，更多需要自行编写，为便于处理，定义Data类用于存放数据和处理数据。格拉布斯准则表和置信区间表范围都为3到100，故可输入3到100个数。
 
 main.cpp未进行修改。
+
+相比于matlab版，由于自定义了数据读入的方式，允许输入的数据更加灵活，可以任意输入字符，任何非数字字符（除数字中的小数点）都可以用于隔开两个数字，而不必须要使用换行。
+
+## GUI界面
+
+相似地设计如下界面，除在窗体对应框中显示外也在右下角文本框中输出与matlab命令行中类似的内容。matlab中由于文字输出不够便利未添加此功能。
+
+![QTGUI](README_picture/QTGUI.jpg)
 
 ## Data类头文件
 
@@ -190,19 +201,17 @@ private:
 #endif // WIDGET_H
 ```
 
-## GUI界面
-
-相似地设计如下界面，除在窗体对应框中显示外也在右下角文本框中输出与matlab命令行中类似的内容。matlab中由于文字输出不够便利未添加此功能。
-
-![QTGUI](C:\Users\User\OneDrive\学习\电子测量\误差\测量误差数据处理\README_picture\QTGUI.jpg)
-
-## 
-
-# 
-
 # 代码
 
-原文件链接：
+原文件下载链接：
+
+https://github.com/Fang-Chenxin/measureErr
+
+​
+
+ 由于QT导出的可执行文件较大，未上传至Github，下载链接如下。
+
+QT可执行文件：[测量误差计算图形化界面QT可执行文件-其它文档类资源-CSDN文库](https://download.csdn.net/download/m0_62592252/87656905?spm=1001.2014.3001.5503 "测量误差计算图形化界面QT可执行文件-其它文档类资源-CSDN文库")
 
 matlab版本R2021a，cmdline.m为原始使用命令窗口输出版本，app_source.mlapp是图形化界面源文件，app1_exported.m是导出的图形界面程序。
 
