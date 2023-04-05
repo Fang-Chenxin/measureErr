@@ -109,9 +109,9 @@ end
 
 相比于matlab，在QT中没有那么丰富可直接使用的函数，更多需要自行编写，为便于处理，定义Data类用于存放数据和处理数据。格拉布斯准则表和置信区间表范围都为3到100，故可输入3到100个数。
 
-main.cpp未进行修改。
-
 相比于matlab版，由于自定义了数据读入的方式，允许输入的数据更加灵活，可以任意输入字符，任何非数字字符（除数字中的小数点）都可以用于隔开两个数字，而不必须要使用换行。
+
+main.cpp未进行修改。
 
 ## GUI界面
 
@@ -205,13 +205,15 @@ private:
 
 原文件下载链接：
 
-https://github.com/Fang-Chenxin/measureErr
+![QTGUI](C:\Users\User\OneDrive\学习\电子测量\误差\测量误差数据处理\README_picture\QTGUI.jpg)
 
-​
+## 
 
- 由于QT导出的可执行文件较大，未上传至Github，下载链接如下。
+# 
 
-QT可执行文件：[测量误差计算图形化界面QT可执行文件-其它文档类资源-CSDN文库](https://download.csdn.net/download/m0_62592252/87656905?spm=1001.2014.3001.5503 "测量误差计算图形化界面QT可执行文件-其它文档类资源-CSDN文库")
+# 代码
+
+原文件链接：
 
 matlab版本R2021a，cmdline.m为原始使用命令窗口输出版本，app_source.mlapp是图形化界面源文件，app1_exported.m是导出的图形界面程序。
 
